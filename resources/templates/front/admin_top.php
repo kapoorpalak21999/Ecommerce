@@ -63,8 +63,10 @@
                         <hr class="visible-xs">
                         <li>
                              
-                            <a href="">
-                                 <span class="glyphicon glyphicon-user"></span> <br class="hidden-xs">
+                            <a href="update.php">
+                                <div class= "hidden-xs">
+                                    <img src="../resources/upload/<?php echo $_SESSION['profilepic']; ?>" height=40 width = 40>
+                                 </div>
                             <?php echo $_SESSION['username']; ?></a>
                         </li>
                     </ul><!-- #nav-list -->
