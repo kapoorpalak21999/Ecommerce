@@ -1,0 +1,72 @@
+/*!
+ * Start Bootstrap - Shop Homepage HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+
+.slide-image {
+    width: 100%;
+}
+/*.category_block ul:hover {
+    background-color: black;
+}*/
+.category_block li:hover {
+    background-color: #3399CC;
+}
+.category_block li:hover a {
+    color: #3399CC;
+}
+.category_block li a {
+    color: black;
+    background-color: white;
+}
+
+.carousel-holder {
+    margin-bottom: 30px;
+}
+.carousel-control,
+.item {
+    border-radius: 4px;
+}
+
+/*.caption {
+    height:150px;
+    overflow: hidden;
+}*/
+
+.caption h4 {
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+/*.thumbnail img {
+    width: 33.33%;
+}*/
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+/*.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+
+*/
+/*.MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; padding-top: 100px;}
+    .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+        .MultiCarousel .MultiCarousel-inner .item { float: left;}
+        .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:#f1f1f1; color:#666;}
+    .MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
+    .MultiCarousel .leftLst { left:0; }
+    .MultiCarousel .rightLst { right:0; }
+    
+        .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }*/
